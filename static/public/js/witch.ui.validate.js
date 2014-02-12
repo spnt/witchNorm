@@ -156,7 +156,6 @@
                     var timeout=setInterval(function() {
                             if(_dom.find('.witchajax').length===0){
                                 clearInterval(timeout);
-                                alert(typeof(options.ajaxFun));
                                 if(typeof(options.ajaxFun)=='function') {
                                     options.ajaxFun();
                                 }

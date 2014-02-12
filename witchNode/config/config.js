@@ -5,7 +5,7 @@ module.exports = {
     //运行环境配置
 
    //web属性配置
-    listenPort:3000,//监听端口
+    listenPort:3001,//监听端口
     uploadFolder:'/tmp/upload', //文件上传的临时目录
     postLimit:1024*1024*100,//限制上传的postbody大小，单位byte
     webTitle:'Witch前端',//网站标题
